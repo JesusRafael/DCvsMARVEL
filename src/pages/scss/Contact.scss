@@ -1,0 +1,66 @@
+.contact {
+  display: flex;
+  color: white;
+  height: 100vh;
+
+  .logo{
+      height: 200px;
+  }
+
+  .networks {
+    padding-top: 72px;
+    position: fixed;
+    z-index: 0;
+  }
+
+  .contacinf {
+    padding-top: 80px;
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 0;
+    left: 50vh;
+    width: 100%;
+
+    h5,
+    h3 {
+      margin: 0px;
+      margin-bottom: 20px;
+      color: #c2e2fa;
+    }
+    .left,
+    .right {
+      width: 100%;
+      justify-content: flex-start;
+    }
+    h5 {
+      width: 100%;
+    }
+    h3 {
+      border-bottom: 2px solid #ffff00;
+    }
+    div {
+      width: 300px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  .divimg {
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    z-index: -1;
+    right: 110px;
+    bottom: 57px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    .circulo {
+      margin-top: -140px;
+      /* margin-right: 8px; */
+      margin-left: -60px;
+      transform: scale(0.6);
+    }
+  }
+}

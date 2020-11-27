@@ -1,0 +1,43 @@
+.Navbar{
+    background: linear-gradient(90deg, #0f1990 22%, #0614c3 35%, #9393cd 50%, #ff3037 72%, #be060d 87%);
+    backdrop-filter: blur(200px);
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    z-index: 5;
+    display: flex;
+    flex-wrap: wrap;
+
+    .logopage {
+        height: inherit;
+        width: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+      .photo {
+        width: 95px;
+        height: 65px;
+        object-fit: fill;
+        border-radius: 10%;
+      }
+    }
+
+    .pages{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90% ;
+        justify-content: flex-end;
+
+        #links{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .link{
+                margin: 25px 15px;
+                padding: 0px 30px;
+                color:#000000;
+            }
+        }
+    }
+}

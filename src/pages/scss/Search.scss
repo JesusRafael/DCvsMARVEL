@@ -1,0 +1,45 @@
+.Search {
+    background-color: rgba(255, 255, 255, 0);
+    //backdrop-filter: blur(20px);
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: center;
+    //height: 90vh;
+    padding-top: 66px;
+
+    .Searchbar{
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        .input {
+            padding: 7px;
+            font-size: 15px;
+            border-width: 1px;
+            border-color: #16f5da;
+            background-color: #FFFFFF;
+            color: #000000;
+            border-style: solid;
+            border-radius: 12px;
+            box-shadow: 2px 3px 9px rgba(66,66,66,.47);
+            text-shadow: 0px 0px 0px rgba(66,66,66,.75);
+       }
+        .css-input:focus {
+            outline:none;
+       }
+    }
+}
+.back {
+    padding-top: 66px;
+    width: 100%;
+    position: fixed;
+    height: 90vh;
+    position: fixed;
+    z-index: -1;
+    background-image: url("../../img/marvel-vs-dc.jpg");
+    background-repeat: no-repeat;
+    filter: blur(4px);
+    background-size: 100% 100%;
+  }

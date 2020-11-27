@@ -1,0 +1,73 @@
+.Home {
+  background-color: rgba(255, 255, 255, 0);
+  //backdrop-filter: blur(20px);
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  //height: 90vh;
+  padding-top: 66px;
+
+  .page_descrip {
+    height: inherit;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    margin-top: 20px;
+    h5 {
+      text-align: center;
+    }
+    h5,
+    h1 {
+      margin: 0px;
+      margin-bottom: 10px;
+      color: #000000;
+    }
+    .center {
+      width: 90%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .containerdes {
+      width: 70%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: rgba(255, 255, 255, 0.534);
+      border-radius: 10px;
+    }
+  }
+
+  .caracters {
+    height: inherit;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    margin-top: 20px;
+
+    .center {
+      width: 90%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      
+    }
+  }
+}
+.back {
+  padding-top: 66px;
+  width: 100%;
+  position: fixed;
+  height: 90vh;
+  position: fixed;
+  z-index: -1;
+  background-image: url("../../img/marvel-vs-dc.jpg");
+  background-repeat: no-repeat;
+  filter: blur(4px);
+  background-size: 100% 100%;
+}
